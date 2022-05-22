@@ -33,12 +33,6 @@ class _CalcUIState extends State<CalcUI> {
               Expanded(
                 child: Container(
                   height: 350,
-                  child: TextField(
-                    decoration: InputDecoration(
-                        border: InputBorder.none,
-                        labelText: 'Enter Name',
-                        hintText: 'Enter Your Name'),
-                  ),
                   color: Color(0xFF5582AC),
                 ),
               ),
