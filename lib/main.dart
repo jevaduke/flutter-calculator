@@ -186,6 +186,7 @@ class _CalcState extends State<Calc> {
 
   isEqualPressed() {
     String userQuestion = question;
+    userQuestion = userQuestion.replaceAll('x', '*');
     Parser p = Parser();
     Expression exp = p.parse(userQuestion);
     ContextModel cm = ContextModel();
